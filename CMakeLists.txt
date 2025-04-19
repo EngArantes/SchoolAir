@@ -3,4 +3,6 @@ project(Nova_pasta C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Nova_pasta src/main.c)
+add_executable(Nova_pasta src/main.c
+        src/reader_file.c
+        src/reader_file.h)

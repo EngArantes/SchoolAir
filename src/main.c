@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include "reader_file.h"
 
 int main(void) {
-    printf("Hello, World!\n");
+    main_reader_file("../data");
 
     return 0;
 }
